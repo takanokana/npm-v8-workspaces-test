@@ -9,10 +9,21 @@
   "keywords": [],
   "author": "koba04",
   "license": "MIT",
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "npm-run-all": "^4.1.5"
+  "devDependencies": {},
+  "dependencies": {
+    "dompurify": "^2.3.8",
+    "query-string": "^7.1.1",
+    "@cybozu/eslint-config": "^17.0.1",
+    "@swc/core": "^1.2.198",
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^28.1.1",
+    "del-cli": "^4.0.1",
+    "eslint": "^8.17.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "prettier": "^2.6.2",
+    "standard-version": "^9.5.0",
+    "typescript": "^4.7.3"
   }
 }
